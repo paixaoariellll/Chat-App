@@ -17,7 +17,6 @@ module.exports = {
   storageBucket: "flipdesk-vercel-app.appspot.com",
   messagingSenderId: "263745300600",
   appId: "1:263745300600:web:6ff8c24679264ff46d258d",
-     
   
   APP_ID: "1:109403351395:web:dacd78b63565488acecb56",
     MESSAGING_SENDER_ID: "109403351395",

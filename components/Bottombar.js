@@ -3,7 +3,7 @@ import { FormControl, Input, Button } from "@chakra-ui/react";
 import { serverTimestamp, addDoc, collection } from "firebase/firestore";
 import { db } from "../firebaseconfig";
 
-export default function Bottombar({id, user}) {
+export default function Bottombar({ id, user }) {
   const [input, setInput] = useState("");
 
   const sendMessage = async (e) => {
@@ -22,8 +22,8 @@ export default function Bottombar({id, user}) {
       onSubmit={sendMessage}
       as="form"
     >
-      <Input placeholder="Type a message..." autoComplete="off" onChange={e => setInput(e.target.value)} value={input} />
-      <Button type="submit" hidden>Submit</Button>
+      <Input placeholder="Digitando uma mensagem..." autoComplete="off" onChange={e => setInput(e.target.value)} value={input} />
+      <Button type="submit" hidden>Enviar</Button>
     </FormControl>
   )
 }

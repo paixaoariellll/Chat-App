@@ -5,7 +5,6 @@ import { auth } from "../firebaseconfig"
 
 function MyApp({ Component, pageProps }) {
   const [user, loading, error] = useAuthState(auth);
-
   if (loading) {
     return (
       <ChakraProvider>
@@ -15,7 +14,6 @@ function MyApp({ Component, pageProps }) {
       </ChakraProvider>
     )
   }
-
   if (!user) {
     return (
       <ChakraProvider>
@@ -23,7 +21,6 @@ function MyApp({ Component, pageProps }) {
       </ChakraProvider>
     )
   }
-
   return (
     <ChakraProvider>
       <Component {...pageProps} />

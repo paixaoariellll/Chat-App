@@ -9,13 +9,10 @@ export default function Login() {
 
   return (
     <>
-    
       <Head>
-        <title>Login</title>
+        <title>Entrar</title>
       </Head>
-
       <Center h="100vh">
-
         <Stack
           align="center"
           bgColor="gray.600"
@@ -24,7 +21,6 @@ export default function Login() {
           spacing={12}
           boxShadow="lg"
         >
-          
           <Box
             bgColor="blue.500"
             w="fit-content"
@@ -34,13 +30,9 @@ export default function Login() {
           >
             <ChatIcon w="100px" h="100px" color="white" />
           </Box>
-
-          <Button boxShadow="md" onClick={() => signInWithGoogle("", {prompt: "select_account"})}>Sign In with Google</Button>
-
+          <Button boxShadow="md" onClick={() => signInWithGoogle("", { prompt: "select_account" })}>Entrar com a conta Google</Button>
         </Stack>
-
       </Center>
-    
     </>
   )
 }
