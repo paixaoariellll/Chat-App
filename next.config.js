@@ -1,11 +1,11 @@
 module.exports = {
   reactStrictMode: true,
   env: {
-    APP_ID: "1:9311945166:web:c1e3932fe27d228dcbeb9f",
-    MESSAGING_SENDER_ID: "9311945166",
-    STORAGE_BUCKET: "temp-chatapp.appspot.com",
-    PROJECT_ID: "temp-chatapp",
-    AUTH_DOMAIN: "temp-chatapp.firebaseapp.com",
-    API_KEY: "AIzaSyDTKhoWxsh9ZtJBL1a8UwCV9YSa3ChB3eI",
+    APP_ID: "1:109403351395:web:dacd78b63565488acecb56",
+    MESSAGING_SENDER_ID: "109403351395",
+    STORAGE_BUCKET: "flipdesk-2.appspot.com",
+    PROJECT_ID: "flipdesk-2",
+    AUTH_DOMAIN: "flipdesk-2.firebaseapp.com",
+    API_KEY: "AIzaSyBhvkpMzl-LGg4BPP2mDdbm17ZytY_b0_g",
   },
 };
